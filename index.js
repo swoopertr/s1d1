@@ -10,6 +10,7 @@ if (final < 0 || final > 100) {
 const donemNotu = vize * 0.3 + final * 0.7;
 let harfNotu;
 
+
 // if (donemNotu >= 90) {
 //   harfNotu = 'A';
 // } else if (donemNotu >= 80) {

@@ -7,6 +7,7 @@ let myModule = rewire("./index");
 const studentCodePath = path.join(__dirname, "index.js");
 const studentCode = fs.readFileSync(studentCodePath, "utf8");
 
+
 let studentCodeToEval;
 if (studentCode.includes("if")) {
   const ifPosition = studentCode.search("if");

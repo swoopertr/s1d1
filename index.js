@@ -7,9 +7,18 @@ if (final < 0 || final > 100) {
   console.log('Vize notunda problem var');
 }
 
-const donemNotu = vize * 0.3 + final * 0.7;
+const donemNotu = vize * 0.3 + final * 15;
 let harfNotu;
 
+console.log(donemNotu);
+
+
+let yas = 11;
+if (yas >= 18) {
+  console.log('Reşitsiniz');
+} else {
+  console.log('Reşit değilsiniz');
+}
 
 // if (donemNotu >= 90) {
 //   harfNotu = 'A';
